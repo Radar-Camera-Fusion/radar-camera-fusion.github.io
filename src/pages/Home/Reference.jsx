@@ -108,7 +108,7 @@ class Dataset extends React.PureComponent {
             {references_fusion}
           </span>
         </div>
-        <div className="content12">
+        <div className="content12" id="citation">
           <h1  name="title" class="title-h1">Citation</h1>
           <div style={{backgroundColor: '#f3f6fa', padding: '10px'}}>
           <code>
@@ -122,6 +122,7 @@ class Dataset extends React.PureComponent {
           {"}"}
           </code>
           </div>
+          <h3  name="title" class="title-h1" style={{ margin: '10px 0 0 0'}}>Awesome Radar-Camera Fusion: <a target='_blank' href='https://github.com/XJTLU-VEC/Radar-Camera-Fusion/blob/gh-pages/README.md'>https://github.com/XJTLU-VEC/Radar-Camera-Fusion</a></h3>
         </div>
       </div>
     )

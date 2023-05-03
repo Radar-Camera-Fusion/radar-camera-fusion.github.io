@@ -763,7 +763,7 @@ class Dataset extends React.PureComponent {
         year: 2022,
         task: ['Object Detection'],
         annotation: ['3D box-level'],
-        radar_data_representation: ['point cloud'],
+        radar_data_representation: ['Point cloud'],
         category_number: 14,
         categories: 'Pedestrian, Car, Bus, Truck, Van, Motorcycle, Pickup, Rider, Bicycle, Trailer, Train, Shopping Cart, Other Object',
         size: '26,583 frames, 425k objects',

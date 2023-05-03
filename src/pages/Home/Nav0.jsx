@@ -29,6 +29,7 @@ class Header extends React.Component {
       const tagProps = {};
       if (item.to && item.to.match(/\//g)) {
         tagProps.href = item.to;
+        tagProps.target = '_blank';
         tag = 'a';
         delete item.to;
       }

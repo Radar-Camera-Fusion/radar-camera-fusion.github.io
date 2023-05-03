@@ -401,7 +401,7 @@ class Fusion extends React.PureComponent {
         annotation: '2D box-level',
         radar_data_representation: 'Range-Azimuth Tensor',
         projection: 'Image to BEV',
-        fusion_level: 'Feature-Level',
+        fusion_level: 'Feature Level',
         fusion_operation: 'Concatenation',
         network: 'FusionNet inspired by SSD',
         dataset: 'Self-Recorded',
