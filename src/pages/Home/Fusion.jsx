@@ -317,7 +317,7 @@ class Fusion extends React.PureComponent {
         network: 'RRPN',
         dataset: 'nuScenes',
         evaluation_metrics: 'AP | AR',
-        conference_journal: 'ICIP',
+        conference_journal: '2019 IEEE International Conference on Image Processing (ICIP)',
         source_code: 'https://github.com/mrnabati/RRPN'
       },
       {
@@ -352,7 +352,7 @@ class Fusion extends React.PureComponent {
         network: 'CMGGAN',
         dataset: 'Self-Recorded',
         evaluation_metrics: 'TP',
-        conference_journal: 'Elsevier CVIU (Computer Vision and Image Understanding)',
+        conference_journal: 'Elsevier Computer Vision and Image Understanding',
         source_code: '-'
       },
 
@@ -370,7 +370,7 @@ class Fusion extends React.PureComponent {
         network: 'A 3D region proposal network based on VGG',
         dataset: 'Astyx',
         evaluation_metrics: 'AP | PRC',
-        conference_journal: '16th European Radar Conference',
+        conference_journal: '2019 16th European Radar Conference (EuRAD)',
         source_code: '-'
       },
 
@@ -388,7 +388,7 @@ class Fusion extends React.PureComponent {
         network: 'RVNet based on YOLOv3',
         dataset: 'nuScenes',
         evaluation_metrics: 'AP | mAP',
-        conference_journal: 'PSIVT 2019 (Pacific-Rim Symposium on Image and Video Technology)',
+        conference_journal: '2019 Pacific-Rim Symposium on Image and Video Technology (PSIVT)',
         source_code: '-'
       },
 
@@ -425,7 +425,7 @@ class Fusion extends React.PureComponent {
         network: 'SO-Net based on the RVNet',
         dataset: 'nuScenes',
         evaluation_metrics: 'AP',
-        conference_journal: 'PSIVT 2019 (Pacific-Rim Symposium on Image and Video Technology)',
+        conference_journal: '2019 Pacific-Rim Symposium on Image and Video Technology (PSIVT)',
         source_code: '-'
       },
 
@@ -464,7 +464,7 @@ class Fusion extends React.PureComponent {
         network: 'CRF-Net based on RetinaNet',
         dataset: 'nuScenes | Self-Recorded',
         evaluation_metrics: 'mAP',
-        conference_journal: 'SDF',
+        conference_journal: '2019 Sensor Data Fusion: Trends, Solutions, Applications (SDF)',
         source_code: 'https://github.com/TUMFTM/CameraRadarFusionNet'
       },
 
@@ -484,7 +484,7 @@ class Fusion extends React.PureComponent {
         network: 'A modified VGG backbone and SSD blocks',
         dataset: 'DENSE',
         evaluation_metrics: 'AP',
-        conference_journal: 'CVPR 2020',
+        conference_journal: '2020 CVPR',
         source_code: 'https://github.com/princeton-computational-imaging/SeeingThroughFog'
       },
 
@@ -504,7 +504,7 @@ class Fusion extends React.PureComponent {
         network: 'RANet and BIRANet based on ResNet',
         dataset: 'nuScenes',
         evaluation_metrics: '-',
-        conference_journal: 'arXiv',
+        conference_journal: '2020 ICIP',
         source_code: 'https://github.com/RituYadav92/Radar-RGB-Attentive-Multimodal-Object-Detection'
       },
 
@@ -523,7 +523,7 @@ class Fusion extends React.PureComponent {
         network: 'FPN with ResNet as backbone, and RPN in Faster R-CNN',
         dataset: 'nuScenes',
         evaluation_metrics: 'AP | AR',
-        conference_journal: 'arXiv',
+        conference_journal: '2020 IROS',
         source_code: '-'
       },
 
@@ -561,7 +561,7 @@ class Fusion extends React.PureComponent {
         network: 'CenterNet with DLA backbone',
         dataset: 'nuScenes',
         evaluation_metrics: 'mAP',
-        conference_journal: 'WACV 2021',
+        conference_journal: '2021 WACV',
         source_code: 'https://github.com/mrnabati/CenterFusion'
       },
 
@@ -581,7 +581,7 @@ class Fusion extends React.PureComponent {
         network: 'RODNet',
         dataset: 'CRUW',
         evaluation_metrics: 'AP | AR | OLS',
-        conference_journal: 'WACV 2021',
+        conference_journal: '2021 WACV',
         source_code: 'https://github.com/yizhou-wang/RODNet'
       },
 
@@ -619,7 +619,7 @@ class Fusion extends React.PureComponent {
         network: 'A network based on YOLOv3',
         dataset: 'nuScenes',
         evaluation_metrics: '-',
-        conference_journal: 'ICSP 2020',
+        conference_journal: '2020 ICSP',
         source_code: '-'
       },
 
@@ -638,7 +638,7 @@ class Fusion extends React.PureComponent {
         network: 'A network based on VGG and FPN',
         dataset: 'Self-Recorded',
         evaluation_metrics: '-',
-        conference_journal: 'ACCV 2020',
+        conference_journal: '2020 ACCV',
         source_code: '-'
       },
 
@@ -658,7 +658,7 @@ class Fusion extends React.PureComponent {
         network: 'AssociationNet',
         dataset: 'Self-Recorded',
         evaluation_metrics: '-',
-        conference_journal: 'WACV 2021',
+        conference_journal: '2021 WACV',
         source_code: '-'
       },
 
@@ -698,7 +698,7 @@ class Fusion extends React.PureComponent {
         network: 'CNN with SSMA block',
         dataset: 'Astyx',
         evaluation_metrics: 'mAP | Average Heading Similarity (AHS)',
-        conference_journal: 'ITSC 2021',
+        conference_journal: '2021 ITSC',
         source_code: '-'
       },
 
@@ -717,7 +717,7 @@ class Fusion extends React.PureComponent {
         network: 'RISFNet based on CSPdarknet53 and VGG',
         dataset: 'FloW',
         evaluation_metrics: '-',
-        conference_journal: 'ICCV 2020',
+        conference_journal: '2020 ICCV',
         source_code: '-'
       },
 
@@ -737,7 +737,7 @@ class Fusion extends React.PureComponent {
         network: 'GRIF Net based on FPN and SBNet',
         dataset: 'nuScenes',
         evaluation_metrics: 'AP',
-        conference_journal: 'IROS 2020',
+        conference_journal: '2020 IROS',
         source_code: '-'
       },
 
@@ -757,7 +757,7 @@ class Fusion extends React.PureComponent {
         network: 'A network based on RetinaNet architecture with a ResNet backbone',
         dataset: 'nuScenes',
         evaluation_metrics: '-',
-        conference_journal: 'WACV 2022',
+        conference_journal: '2022 WACV',
         source_code: '-'
       },
 
@@ -815,7 +815,7 @@ class Fusion extends React.PureComponent {
         network: 'RCBEV with Swin Transformer as backbone and FPN as neck',
         dataset: 'nuScenes',
         evaluation_metrics: 'mAP | MTP | NDS',
-        conference_journal: 'arXiv',
+        conference_journal: 'IEEE Transactions on Intelligent Vehicles',
         source_code: '-'
       },
 
@@ -835,7 +835,7 @@ class Fusion extends React.PureComponent {
         network: 'RCBEV with Swin Transformer as backbone and FPN as neck',
         dataset: 'nuScenes',
         evaluation_metrics: '-',
-        conference_journal: 'arXiv',
+        conference_journal: '2023 AAAI',
         source_code: '-'
       },
 
@@ -855,7 +855,7 @@ class Fusion extends React.PureComponent {
         network: 'DeepFusion',
         dataset: 'Self-reorded | nuScenes',
         evaluation_metrics: '-',
-        conference_journal: 'arXiv',
+        conference_journal: '2022 IROS',
         source_code: '-'
       },
 
@@ -874,7 +874,7 @@ class Fusion extends React.PureComponent {
         network: 'CramNet',
         dataset: 'RADIATE',
         evaluation_metrics: '-',
-        conference_journal: 'arXiv',
+        conference_journal: '2022 ECCV',
         source_code: '-'
       },
 
@@ -892,7 +892,7 @@ class Fusion extends React.PureComponent {
         network: 'MVFusion',
         dataset: 'nuScenes',
         evaluation_metrics: '-',
-        conference_journal: 'arXiv',
+        conference_journal: '2023 ICRA',
         source_code: '-'
       },
 
@@ -910,8 +910,62 @@ class Fusion extends React.PureComponent {
         network: 'CRN',
         dataset: 'nuScenes',
         evaluation_metrics: '-',
+        conference_journal: '2023 ICLR',
+        source_code: '-'
+      },
+
+      {
+        key: '34',
+        name: 'RCFusion: Fusing 4D Radar and Camera with Bird\'s-Eye View Features for 3D Object Detection, 34',
+        short_name: 'RCFusion',
+        year: 2023,
+        task: 'Object Detection',
+        annotation: '3D box-level',
+        radar_data_representation: 'Point Cloud',
+        projection: '-',
+        fusion_level: 'Feature Level',
+        fusion_operation: 'Concatenation | Multiplication | Attention',
+        network: 'RCFusion',
+        dataset: 'VoD, TJ4DRadSet',
+        evaluation_metrics: '-',
+        conference_journal: 'IEEE TIM',
+        source_code: '-'
+      },
+
+      {
+        key: '35',
+        name: 'LXL: LiDAR Exclusive Lean 3D Object Detection with 4D Imaging Radar and Camera Fusion, 35',
+        short_name: 'LXL',
+        year: 2023,
+        task: 'Object Detection',
+        annotation: '3D box-level',
+        radar_data_representation: 'Point Cloud',
+        projection: '-',
+        fusion_level: 'Feature Level',
+        fusion_operation: 'Concatenation | Multiplication',
+        network: 'LXL',
+        dataset: 'VoD, TJ4DRadSet',
+        evaluation_metrics: '-',
         conference_journal: 'arXiv',
         source_code: '-'
+      },
+
+      {
+        key: '36',
+        name: 'Achelous: A Fast Unified Water-surface Panoptic Perception Framework based on Fusion of Monocular Camera and 4D mmWave Radar, 36',
+        short_name: 'Achelous',
+        year: 2023,
+        task: 'Object Detection',
+        annotation: '2D box-level',
+        radar_data_representation: 'Point Cloud',
+        projection: '-',
+        fusion_level: 'Data Level',
+        fusion_operation: 'Concatenation',
+        network: 'Achelous',
+        dataset: 'WaterScenes',
+        evaluation_metrics: '-',
+        conference_journal: 'IEEE ITSC',
+        source_code: 'https://github.com/GuanRunwei/Achelous'
       },
       
 

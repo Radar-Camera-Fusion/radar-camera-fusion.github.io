@@ -39,7 +39,7 @@ export const Nav00DataSource = {
       },
       {
         name: 'linkNav',
-        to: 'https://github.com/XJTLU-VEC/Radar-Camera-Fusion/blob/gh-pages/README.md',
+        to: 'https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion',
         children: 'Github',
         className: 'menu-item',
       },

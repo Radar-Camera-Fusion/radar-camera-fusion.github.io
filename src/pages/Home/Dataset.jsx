@@ -133,7 +133,11 @@ class Dataset extends React.PureComponent {
         "x": "aiMotive",
         "y": 40
       },
-
+      {
+        "type": "Point Cloud",
+        "x": "WaterScenes",
+        "y": 66
+      },
     ];
     const annotations = [];
     // each(groupBy(chart_data, 'x'), (values, k) => {
@@ -150,8 +154,8 @@ class Dataset extends React.PureComponent {
     //     offsetY: -10,
     //   })
     // });
-    const bar_number = [40, 0.5, 13, 12, 3, 11, 44, 100, 400, 393, 49, 10, 4, 8, 8, 7, 40, 35, 26]
-    const bar_fake = [60, 8, 30, 28, 10, 26, 65, 70, 90, 88, 60, 24, 12, 21, 21, 18, 60, 55, 40]
+    const bar_number = [40, 0.5, 13, 12, 3, 11, 44, 100, 400, 393, 49, 10, 4, 8, 8, 7, 40, 35, 26, 54]
+    const bar_fake = [60, 8, 30, 28, 10, 26, 65, 70, 90, 88, 60, 24, 12, 21, 21, 18, 60, 55, 40, 66]
     each(bar_number, (value, k) => {
       // const value = values.reduce((a, b) => a + b.y, 0);
       annotations.push({
@@ -630,7 +634,7 @@ class Dataset extends React.PureComponent {
         name: ['RadarScenes', 'https://radar-scenes.com/', '11'],
         year: 2021,
         task: ['Object Detection', 'Semantic Segmentation'],
-        annotation: ['2D pixel-level', '3D point-level'],
+        annotation: ['2D point-level'],
         radar_data_representation: ['Point Cloud'],
         category_number: 11,
         categories: 'Car, Large Vehicle, Truck, Bus, Train, Bicycle, Motorized Two-wheeler, Pedestrian, Pedestrian Group, Animal, and Other',
@@ -772,6 +776,21 @@ class Dataset extends React.PureComponent {
         record_area: 'California, US; Austria; and Hungary ',
         record_time: '-',
         affiliation: 'aimotive',
+      },
+      {
+        key: '20',
+        name: ['WaterScenes', 'https://waterscenes.github.io', '20'],
+        year: 2023,
+        task: ['Object Detection', 'Object Detection', 'Instance Segmentation', 'Semantic Segmentation', 'Free-space Segmentation', 'Waterline Segmentation', 'Panoptic Perception'],
+        annotation: ['2D box-level', '2D pixel-level', '2D line-level', '3D point-level'],
+        radar_data_representation: ['point cloud'],
+        category_number: 7,
+        categories: 'Pier, Buoy, Sailor, Ship, Boat, Vessel, Kayak',
+        size: '54,120 frames, 200k objects',
+        scenarios: ['diverse time conditions (daytime, nightfall, night), lighting conditions (normal, dim, strong), weather conditions (sunny, overcast, rainy, snowy) and waterway conditions (river, lake, canal, moat)'],
+        record_area: 'Suzhou, China',
+        record_time: '2022/08-2022/12',
+        affiliation: 'XJTLU',
       },
 
 
