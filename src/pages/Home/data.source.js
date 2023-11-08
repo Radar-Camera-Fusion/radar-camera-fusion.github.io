@@ -121,6 +121,14 @@ export const Banner30DataSource = {
         className: 'banner3-time',
         children: 'University of Liverpool, Xi‘an Jiaotong-Liverpool University, Institute of Deep Perception Technology, JITRI',
       },
+      {
+        name: 'button',
+        className: 'banner3-button',
+        children: 'GitHub: https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion',
+        type: 'primary',
+        href: 'https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion',
+        target: '_blank',
+      },
     ],
   },
 };
@@ -150,7 +158,7 @@ export const Footer00DataSource = {
     className: 'copyright',
     children: (
       <span>
-        ©2023 <a href="https://github.com/XJTLU-VEC">XJTLU-VEC</a> All Rights Reserved
+        ©2023 <a href="https://github.com/Radar-Camera-Fusion">Radar-Camera-Fusion</a> All Rights Reserved
       </span>
     ),
   },

@@ -8,7 +8,8 @@ export default defineConfig({
   request: {},
   // history: { type: 'hash' },
   // base: 'Radar-Camera-Fusion',
-  publicPath: './',
+  // publicPath: 'Radar-Camera-Fusion/',
+  // publicPath: '.',
   routes: [
     {
       path: '/',

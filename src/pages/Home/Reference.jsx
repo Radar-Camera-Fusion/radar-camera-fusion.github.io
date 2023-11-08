@@ -118,14 +118,14 @@ class Dataset extends React.PureComponent {
           {"@misc{yao2023radarcamera,"}<br></br> 
           &nbsp;&nbsp;&nbsp;&nbsp;{"title={Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review}, " }<br></br> 
           &nbsp;&nbsp;&nbsp;&nbsp;{"author={Shanliang Yao and Runwei Guan and Xiaoyu Huang and Zhuoxiao Li and Xiangyu Sha and Yong Yue and Eng Gee Lim and Hyungjoon Seo and Ka Lok Man and Xiaohui Zhu and Yutao Yue}," }<br></br> 
+          &nbsp;&nbsp;&nbsp;&nbsp;{"journal={IEEE Transactions on Intelligent Vehicles}, "}<br></br> 
+          &nbsp;&nbsp;&nbsp;&nbsp;{"doi={10.1109/TIV.2023.3307157}}"}<br></br> 
           &nbsp;&nbsp;&nbsp;&nbsp;{"year={2023},"}<br></br> 
-          &nbsp;&nbsp;&nbsp;&nbsp;{"eprint={2304.10410},"}<br></br> 
-          &nbsp;&nbsp;&nbsp;&nbsp;{"archivePrefix={arXiv},"}<br></br> 
-          &nbsp;&nbsp;&nbsp;&nbsp;{"primaryClass={cs.CV}"}<br></br> 
+          &nbsp;&nbsp;&nbsp;&nbsp;{"pages={1-40}"}<br></br> 
           {"}"}
           </code>
           </div>
-          <h3  name="title" class="title-h1" style={{ margin: '10px 0 0 0'}}>Awesome Radar-Camera Fusion: <a target='_blank' href='https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion'>https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion</a></h3>
+          {/* <h3  name="title" class="title-h1" style={{ margin: '10px 0 0 0'}}>Awesome Radar-Camera Fusion: <a target='_blank' href='https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion'>https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion</a></h3> */}
         </div>
       </div>
     )
