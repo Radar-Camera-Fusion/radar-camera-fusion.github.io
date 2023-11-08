@@ -6,14 +6,18 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
-  // history: { type: 'hash' },
+  history: { type: 'browser' },
   // base: 'Radar-Camera-Fusion',
   // publicPath: 'Radar-Camera-Fusion/',
-  // publicPath: '.',
+  // publicPath: '/',
   routes: [
     {
       path: '/',
       component: './Home',
+    },
+    {
+      path: '/radar',
+      component: './Radar',
     },
   ],
   npmClient: 'npm',

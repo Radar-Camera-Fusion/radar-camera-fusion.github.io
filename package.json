@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/XJTLU-VEC/Radar-Camera-Fusion",
+  "homepage": "https://github.com/Radar-Camera-Fusion",
   "private": true,
   "scripts": {
-    "build": "max build",
+    "build": "max build && mkdir dist/radar && cp dist/index.html dist/radar",
     "start": "max dev",
     "deploy": "gh-pages -d dist"
   },

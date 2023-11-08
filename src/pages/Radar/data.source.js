@@ -39,8 +39,8 @@ export const Nav00DataSource = {
       },
       {
         name: 'linkNav',
-        to: 'https://radar-camera-fusion.github.io/radar',
-        children: 'Radar Perception',
+        to: 'https://radar-camera-fusion.github.io',
+        children: 'Radar Camera Fusion',
         className: 'menu-item',
       },
     ],
@@ -96,13 +96,13 @@ export const Banner30DataSource = {
         name: 'slogan',
         className: 'banner3-slogan',
         children:
-          'Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review',
+          'Radar Perception in Autonomous Driving: Exploring Different Data Representations',
         // texty: true,
       },
       {
         name: 'nameEn',
         className: 'banner3-name-en',
-        children: 'Shanliang Yao, Runwei Guan, Xiaoyu Huang, Zhuoxiao Li, Xiangyu Sha, ',
+        children: 'Shanliang Yao, Runwei Guan, Zitian Peng, Chenhang Xu, Xiangyu Sha, ',
       },
       {
         name: 'nameEn',
@@ -124,9 +124,9 @@ export const Banner30DataSource = {
       {
         name: 'button',
         className: 'banner3-button',
-        children: 'GitHub: https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion',
+        children: 'GitHub: https://github.com/Radar-Camera-Fusion/Awesome-Radar-Perception',
         type: 'primary',
-        href: 'https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion',
+        href: 'https://github.com/Radar-Camera-Fusion/Awesome-Radar-Perception',
         target: '_blank',
       },
     ],
