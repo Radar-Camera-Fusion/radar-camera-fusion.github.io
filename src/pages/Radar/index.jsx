@@ -9,7 +9,11 @@ import Banner3 from './Banner3';
 import Comparison from './Comparison';
 import RadarChart from './RadarChart';
 import Dataset from './Dataset';
-import Fusion from './Fusion';
+import Method_1 from './Method_1';
+import Method_2 from './Method_2';
+import Method_3 from './Method_3';
+import Method_4 from './Method_4';
+import Method_5 from './Method_5';
 import Reference from './Reference';
 import Content13 from './Content13';
 import Footer0 from './Footer0';
@@ -93,19 +97,43 @@ export default class Home extends React.Component {
       //   dataSource={ComparisonDataSource}
       //   isMobile={this.state.isMobile}
       // />,
-      // <RadarChart
-      //   id="Dataset0_0"
-      //   key="Dataset0_0"
-      //   dataSource={DatasetDataSource}
-      //   isMobile={this.state.isMobile}
-      // />,
+       <RadarChart
+         id="Dataset0_0"
+         key="Dataset0_0"
+         dataSource={DatasetDataSource}
+         isMobile={this.state.isMobile}
+      />,
       <Dataset
         id="Dataset0_0"
         key="Dataset0_0"
         dataSource={DatasetDataSource}
         isMobile={this.state.isMobile}
       />,
-      <Fusion
+      <Method_1
+        id="Fusion0_0"
+        key="Fusion0_0"
+        dataSource={FusionDataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Method_2
+        id="Fusion0_0"
+        key="Fusion0_0"
+        dataSource={FusionDataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Method_3
+        id="Fusion0_0"
+        key="Fusion0_0"
+        dataSource={FusionDataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Method_4
+        id="Fusion0_0"
+        key="Fusion0_0"
+        dataSource={FusionDataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Method_5
         id="Fusion0_0"
         key="Fusion0_0"
         dataSource={FusionDataSource}

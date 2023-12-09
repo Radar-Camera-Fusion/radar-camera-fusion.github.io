@@ -4,8 +4,8 @@ import TweenOne from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 // import * as G2Plot from '@antv/g2plot'
 import { Radar } from '@ant-design/plots';
-
-import { Table, Tag, Affix } from 'antd';
+import cover from "./images/cover.png"
+import { Table, Tag, Affix, Image } from 'antd';
 import { Col, Row } from 'antd';
 import { each, groupBy } from '@antv/util';
 
@@ -222,40 +222,19 @@ class RadarChart extends React.PureComponent {
     };
 
     return (
-      <div {...props} {...dataSource.wrapper} id="characteristics">
-        <div className="title-wrapper">
-          
-          <div className="chart">
-          <h2 name="title" className="title-h5">Radar-Camera Characteristics</h2>
-            <Row justify="start" align="middle">
+      <div class="home-page-wrapper content6-wrapper">
+        <div class="ant-row home-page content6" id="WaterScenes">
+          {/* <Divider orientation="center"><h1 name="title" className="title-h1">WaterScenes Dataset</h1></Divider> */}
 
-              <Col span={8} offset={4}>
-                <Row>
-                  <Col span={24} ><Radar {...radar_config} /></Col>
-                  {/* </Row> */}
-                  {/* <Row> */}
-                  <Col span={24} ><Radar {...camera_config} /></Col>
-                </Row>
-              </Col>
-
-              <Col span={12}>
-                <Row align="start">
-                  <Col span={18}>
-                    <Radar {...fusion_config} />
-                  </Col>
-
-                </Row>
-              </Col>
-              {/* <Col span={2}>
-              </Col> */}
-            </Row>
-
-
-
-
-            {/* <Radar {...fusion_config} /> */}
+          <div class="ant-col content6-text ant-col-xs-24 ant-col-md-24">
+            <div className="title-wrapper">
+              <div className="chart">
+                {/* <h1 name="title" className="title-h1">WaterScenes Dataset</h1> */}
+                <Image src={cover}></Image>
+              </div>
+            </div>
           </div>
-          {/* <Table bordered pagination={{ pageSize: 30, hideOnSinglePage: true }} columns={columns} dataSource={data} onChange={onChange} />; */}
+          
         </div>
       </div>
     );

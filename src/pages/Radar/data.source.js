@@ -102,7 +102,7 @@ export const Banner30DataSource = {
       {
         name: 'nameEn',
         className: 'banner3-name-en',
-        children: 'Shanliang Yao, Runwei Guan, Zitian Peng, Chenhang Xu, Xiangyu Sha, ',
+        children: 'Shanliang Yao, Runwei Guan, Zitian Peng, Chenhang Xu, Yilu Shi, ',
       },
       {
         name: 'nameEn',

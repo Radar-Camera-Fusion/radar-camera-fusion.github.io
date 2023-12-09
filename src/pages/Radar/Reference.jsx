@@ -104,13 +104,13 @@ class Dataset extends React.PureComponent {
           {/* </div> */}
         {/* </div> */}
         {/* <div style={{ backgroundColor: '#e6f7ff', height: '40px' }}>11</div> */}
-        <div className="content12" style={{ height: '400px', overflowY: 'scroll' }}>
+        {/* <div className="content12" style={{ height: '400px', overflowY: 'scroll' }}>
           <h1  name="title" class="title-h1">References</h1>
           <span>
             {references_dataset}
             {references_fusion}
           </span>
-        </div>
+        </div> */}
         <div className="content12" id="citation">
           <h1  name="title" class="title-h1">Citation</h1>
           <div style={{backgroundColor: '#f3f6fa', padding: '10px'}}>
