@@ -226,7 +226,10 @@ class RadarChart extends React.PureComponent {
         <div class="ant-row home-page content6" id="WaterScenes">
           {/* <Divider orientation="center"><h1 name="title" className="title-h1">WaterScenes Dataset</h1></Divider> */}
 
-          <div class="ant-col content6-text ant-col-xs-24 ant-col-md-24">
+          <div class="ant-col content6-text ant-col-xs-2 ant-col-md-2">
+
+          </div>
+          <div class="ant-col content6-text ant-col-xs-20 ant-col-md-20">
             <div className="title-wrapper">
               <div className="chart">
                 {/* <h1 name="title" className="title-h1">WaterScenes Dataset</h1> */}

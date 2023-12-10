@@ -20,12 +20,6 @@ class Fusion extends React.PureComponent {
       {
         title: 'Name',
         dataIndex: 'name',
-        // width: '10%',
-        render: (text, record) => {
-          // console.log(record)
-          // let content = text.toString().split(',');
-          return <div> <a target="_blank" href={record.paper_link}>{text}</a></div>;
-        },
       },
       {
         title: 'Short Name',
@@ -60,13 +54,13 @@ class Fusion extends React.PureComponent {
               tag = tag.trim();
               let color = '';
               switch (tag) {
-                case 'Object Detection': color = '#1890ff'; break;
-                case 'Semantic Segmentation': color = '#fa541c'; break;
-                case 'Object Tracking': color = '#fa8c16'; break;
-                case 'Localization': color = '#13c2c2'; break;
+                case 'Detection': color = '#1890ff'; break;
+                case 'Segmentation': color = '#fa541c'; break;
+                case 'Tracking': color = '#fa8c16'; break;
+                case 'Odometry': color = '#13c2c2'; break;
                 case 'Planning': color = '#52c41a'; break;
                 case 'Prediction': color = '#f5222d'; break;
-                case 'Object Classification': color = '#eb2f96'; break;
+                case 'Classification': color = '#eb2f96'; break;
                 // case '': color = '#eb2f96'; break;
                 // case '': color = '#722ed1'; break;
                 default: color = 'blue-inverse';
@@ -103,16 +97,24 @@ class Fusion extends React.PureComponent {
         dataIndex: 'conference_journal',
       },
       {
-        title: 'Source Code',
+        title: 'Link',
         dataIndex: 'source_code',
         render: (text, record) => {
-          console.log(text)
-          if (text != '-') {
-            return <a target='_blank' href={text}>{text}</a>;
+          console.log(record)
+          // let content = text.toString().split(',');
+          if (record.source_code != '' && record.source_code != '-') {
+            return <div>
+              <a target="_blank" href={record.paper_link}>Paper</a>&nbsp;&nbsp;
+              <a target='_blank' href={record.source_code}>Code</a>
+            </div>;
+          } else {
+            return <div>
+              <a target="_blank" href={record.paper_link}>Paper</a>
+            </div>;
           }
+
         },
       },
-
 
     ];
     const data = [
@@ -155,7 +157,7 @@ class Fusion extends React.PureComponent {
       {
         key: '4',
         name: 'Radar-PointGNN: Graph Based Object Recognition for Unstructured Radar Point-cloud Data',
-        short_name: '-',
+        short_name: 'Radar-PointGNN',
         year: 2022,
         task: ['Classification'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
@@ -204,7 +206,7 @@ class Fusion extends React.PureComponent {
       {
         key: '8',
         name: 'RPFA-Net: a 4D RaDAR Pillar Feature Attention Network for 3D Object Detection',
-        short_name: '-',
+        short_name: 'RPFA-Net',
         year: 2021,
         task: ['Detection'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
@@ -243,7 +245,7 @@ class Fusion extends React.PureComponent {
 
       {
         key: '11',
-        name: '3-D Object Detection for Multiframe 4-D Automotive Millimeter-Wave Radar Point Cloud',
+        name: '3D Object Detection for Multiframe 4-D Automotive Millimeter-Wave Radar Point Cloud',
         short_name: '-',
         year: 2023,
         task: ['Detection'],
@@ -257,7 +259,7 @@ class Fusion extends React.PureComponent {
       {
         key: '12',
         name: 'SMURF: Spatial Multi-Representation Fusion for 3D Object Detection with 4D Imaging Radar',
-        short_name: '-',
+        short_name: 'SMURF',
         year: 2023,
         task: ['Detection'],
         dataset: ['VoD', 'TJ4DRadSet'],// 没用数据集则留空，有的话按数组格式
@@ -270,7 +272,7 @@ class Fusion extends React.PureComponent {
       {
         key: '13',
         name: 'MVFAN: Multi-View Feature Assisted Network for 4D Radar Object Detection',
-        short_name: '-',
+        short_name: 'MVFAN',
         year: 2023,
         task: ['Detection'],
         dataset: ['VoD', 'Astyx'],// 没用数据集则留空，有的话按数组格式
@@ -323,7 +325,7 @@ class Fusion extends React.PureComponent {
       {
         key: '17',
         name: 'RSS-Net: Weakly-Supervised Multi-Class Semantic Segmentation with FMCW Radar',
-        short_name: '-',
+        short_name: 'RSS-Net',
         year: 2020,
         task: ['Segmentation'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
@@ -405,7 +407,7 @@ class Fusion extends React.PureComponent {
       {
         key: '23',
         name: 'DRIO: Robust Radar-Inertial Odometry in Dynamic Environments',
-        short_name: '-',
+        short_name: 'DRIO',
         year: 2023,
         task: ['Odometry'],
         dataset: [],// 没用数据集则留空，有的话按数组格式

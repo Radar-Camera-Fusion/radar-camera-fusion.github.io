@@ -20,12 +20,6 @@ class Fusion extends React.PureComponent {
       {
         title: 'Name',
         dataIndex: 'name',
-        // width: '10%',
-        render: (text, record) => {
-          // console.log(record)
-          // let content = text.toString().split(',');
-          return <div> <a target="_blank" href={record.paper_link}>{text}</a></div>;
-        },
       },
       {
         title: 'Short Name',
@@ -57,24 +51,24 @@ class Fusion extends React.PureComponent {
           console.log(content)
           let tags = []
           content.map(tag => {
-              tag = tag.trim();
-              let color = '';
-              switch (tag) {
-                case 'Object Detection': color = '#1890ff'; break;
-                case 'Semantic Segmentation': color = '#fa541c'; break;
-                case 'Object Tracking': color = '#fa8c16'; break;
-                case 'Localization': color = '#13c2c2'; break;
-                case 'Planning': color = '#52c41a'; break;
-                case 'Prediction': color = '#f5222d'; break;
-                case 'Object Classification': color = '#eb2f96'; break;
-                // case '': color = '#eb2f96'; break;
-                // case '': color = '#722ed1'; break;
-                default: color = 'blue-inverse';
-              }
-              tags.push(<Tag color={color} key={tag}>
-                {tag}
-              </Tag>);
-            })
+            tag = tag.trim();
+            let color = '';
+            switch (tag) {
+              case 'Detection': color = '#1890ff'; break;
+              case 'Segmentation': color = '#fa541c'; break;
+              case 'Tracking': color = '#fa8c16'; break;
+              case 'Multi-Task': color = '#13c2c2'; break;
+              case 'Planning': color = '#52c41a'; break;
+              case 'Prediction': color = '#f5222d'; break;
+              case 'Object Classification': color = '#eb2f96'; break;
+              // case '': color = '#eb2f96'; break;
+              // case '': color = '#722ed1'; break;
+              default: color = 'blue-inverse';
+            }
+            tags.push(<Tag color={color} key={tag}>
+              {tag}
+            </Tag>);
+          })
           return tags
         }
       },
@@ -93,8 +87,8 @@ class Fusion extends React.PureComponent {
           let content = text.toString().split('|');
           let tags = []
           content.map(tag => {
-            tags.push(<div><span>{tag}</span><br/></div>);
-            })
+            tags.push(<div><span>{tag}</span><br /></div>);
+          })
           return tags
         }
       },
@@ -102,24 +96,23 @@ class Fusion extends React.PureComponent {
         title: 'Conference/Journal',
         dataIndex: 'conference_journal',
       },
-      // {
-      //   title: 'Paper',
-      //   dataIndex: 'paper_link',
-      //   render: (text, record) => {
-      //     console.log(text)
-      //     if (text != '-') {
-      //       return <a target='_blank' href={text}>{text}</a>;
-      //     }
-      //   },
-      // },
       {
-        title: 'Source Code',
+        title: 'Link',
         dataIndex: 'source_code',
         render: (text, record) => {
-          console.log(text)
-          if (text != '-') {
-            return <a target='_blank' href={text}>{text}</a>;
+          console.log(record)
+          // let content = text.toString().split(',');
+          if (record.source_code != '' && record.source_code != '-') {
+            return <div>
+              <a target="_blank" href={record.paper_link}>Paper</a>&nbsp;&nbsp;
+              <a target='_blank' href={record.source_code}>Code</a>
+            </div>;
+          } else {
+            return <div>
+              <a target="_blank" href={record.paper_link}>Paper</a>
+            </div>;
           }
+
         },
       },
 
@@ -165,7 +158,7 @@ class Fusion extends React.PureComponent {
       {
         key: '4',
         name: 'RODNet: Radar Object Detection Using Cross-Modal Supervision',
-        short_name: '-',
+        short_name: 'RODNet',
         year: 2020,
         task: ['Detection'],
         dataset: ['CRUW'],// 没用数据集则留空，有的话按数组格式
@@ -177,7 +170,7 @@ class Fusion extends React.PureComponent {
       {
         key: '5',
         name: 'RODNet: A Real-Time Radar Object Detection Network Cross-Supervised by Camera-Radar Fused Object 3D Localization',
-        short_name: '-',
+        short_name: 'RODNet',
         year: 2020,
         task: ['Detection'],
         dataset: ['CRUW'],// 没用数据集则留空，有的话按数组格式
@@ -201,7 +194,7 @@ class Fusion extends React.PureComponent {
       {
         key: '7',
         name: 'RAMP-CNN: A Novel Neural Network for Enhanced Automotive Radar Object Recognition',
-        short_name: '-',
+        short_name: 'RAMP-CNN',
         year: 2020,
         task: ['Detection'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
@@ -241,7 +234,7 @@ class Fusion extends React.PureComponent {
       {
         key: '10',
         name: 'RADDet: Range-Azimuth-Doppler based Radar Object Detection for Dynamic Road Users',
-        short_name: '-',
+        short_name: 'RADDet',
         year: 2021,
         task: ['Detection'],
         dataset: ['RADDet'],// 没用数据集则留空，有的话按数组格式
@@ -255,7 +248,7 @@ class Fusion extends React.PureComponent {
       {
         key: '11',
         name: 'DAROD: A Deep Automotive Radar Object Detector on Range-Doppler maps',
-        short_name: '-',
+        short_name: 'DAROD',
         year: 2022,
         task: ['Detection'],
         dataset: ['CARRADA RADDet'],// 没用数据集则留空，有的话按数组格式
@@ -269,7 +262,7 @@ class Fusion extends React.PureComponent {
       {
         key: '12',
         name: 'K-Radar: 4D Radar Object Detection for Autonomous Driving in Various Weather Conditions',
-        short_name: '-',
+        short_name: 'K-Radar',
         year: 2022,
         task: ['Detection'],
         dataset: ['K-Radar'],// 没用数据集则留空，有的话按数组格式
@@ -282,7 +275,7 @@ class Fusion extends React.PureComponent {
       {
         key: '13',
         name: 'Enhanced K-Radar: Optimal Density Reduction to Improve Detection Performance and Accessibility of 4D Radar Tensor-based Object Detection',
-        short_name: '-',
+        short_name: 'Enhanced K-Radar',
         year: 2023,
         task: ['Detection'],
         dataset: ['K-Radar'],// 没用数据集则留空，有的话按数组格式
@@ -295,7 +288,7 @@ class Fusion extends React.PureComponent {
       {
         key: '14',
         name: 'RSS-Net: Weakly-supervised multi-class semantic segmentation with FMCW radar',
-        short_name: '-',
+        short_name: 'RSS-Net',
         year: 2020,
         task: ['Segmentation'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
@@ -322,7 +315,7 @@ class Fusion extends React.PureComponent {
       {
         key: '16',
         name: 'PolarNet: Accelerated Deep Open Space Segmentation using Automotive Radar in Polar Domain',
-        short_name: '-',
+        short_name: 'PolarNet',
         year: 2021,
         task: ['Segmentation'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
@@ -372,8 +365,8 @@ class Fusion extends React.PureComponent {
 
 
 
-    
-      
+
+
 
     ]
 
@@ -384,10 +377,10 @@ class Fusion extends React.PureComponent {
     return (
       <div {...props} {...dataSource.wrapper} id="methods">
         <div className="title-wrapper">
-        <h2 name="title" className="title-h1">Radar Tensor Methods</h2>
-          
+          <h2 name="title" className="title-h1">Radar Tensor Methods</h2>
+
         </div>
-        <Table bordered scroll={{x: '200px'}} columns={columns} dataSource={data} onChange={onChange} />
+        <Table bordered scroll={{ x: '200px' }} columns={columns} dataSource={data} onChange={onChange} />
       </div>
     );
   }

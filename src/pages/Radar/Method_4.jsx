@@ -20,12 +20,6 @@ class Fusion extends React.PureComponent {
       {
         title: 'Name',
         dataIndex: 'name',
-        // width: '10%',
-        render: (text, record) => {
-          // console.log(record)
-          // let content = text.toString().split(',');
-          return <div> <a target="_blank" href={record.paper_link}>{text}</a></div>;
-        },
       },
       {
         title: 'Short Name',
@@ -60,9 +54,9 @@ class Fusion extends React.PureComponent {
               tag = tag.trim();
               let color = '';
               switch (tag) {
-                case 'Object Detection': color = '#1890ff'; break;
-                case 'Semantic Segmentation': color = '#fa541c'; break;
-                case 'Object Tracking': color = '#fa8c16'; break;
+                case 'Detection': color = '#1890ff'; break;
+                case 'Segmentation': color = '#fa541c'; break;
+                case 'Tracking': color = '#fa8c16'; break;
                 case 'Localization': color = '#13c2c2'; break;
                 case 'Planning': color = '#52c41a'; break;
                 case 'Prediction': color = '#f5222d'; break;
@@ -103,13 +97,22 @@ class Fusion extends React.PureComponent {
         dataIndex: 'conference_journal',
       },
       {
-        title: 'Source Code',
+        title: 'Link',
         dataIndex: 'source_code',
         render: (text, record) => {
-          console.log(text)
-          if (text != '-') {
-            return <a target='_blank' href={text}>{text}</a>;
+          console.log(record)
+          // let content = text.toString().split(',');
+          if (record.source_code != '' && record.source_code != '-') {
+            return <div>
+              <a target="_blank" href={record.paper_link}>Paper</a>&nbsp;&nbsp;
+              <a target='_blank' href={record.source_code}>Code</a>
+            </div>;
+          } else {
+            return <div>
+              <a target="_blank" href={record.paper_link}>Paper</a>
+            </div>;
           }
+
         },
       },
 
@@ -230,7 +233,7 @@ class Fusion extends React.PureComponent {
 
       {
         key: '10',
-        name: 'Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving',
+        name: 'NVRadarNet: Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving',
         short_name: 'NVRadarNet',
         year: 2023,
         task: ['Detection'],

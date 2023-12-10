@@ -485,7 +485,7 @@ class Dataset extends React.PureComponent {
         category_number: 14,
         categories: 'Pedestrian, Car, Bus, Truck, Van, Motorcycle, Pickup, Rider, Bicycle, Trailer, Train, Shopping Cart, Other Object',
         scenarios: ' Roads (highway, urban, rural)',
-        record_area: 'California, US; Austria; and Hungary ',
+        record_area: 'California, US; Austria; and Hungary',
         record_time: '-',
         affiliation: 'aimotive',
         paper_link: 'https://openreview.net/pdf?id=yl9aThYT9W',
