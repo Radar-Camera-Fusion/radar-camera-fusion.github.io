@@ -127,7 +127,7 @@ class Fusion extends React.PureComponent {
         year: 2019,
         task: ['Detection'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RA ACSSC',
+        conference_journal: 'ACSSC',
         paper_link: 'https://ieeexplore.ieee.org/abstract/document/9048939',
         source_code: '-'
       },
@@ -139,7 +139,7 @@ class Fusion extends React.PureComponent {
         year: 2019,
         task: ['Detection'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RAD ICCVW',
+        conference_journal: 'ICCV Workshop',
         paper_link: 'https://ieeexplore.ieee.org/document/9022248',
         source_code: '-'
       },
@@ -150,7 +150,7 @@ class Fusion extends React.PureComponent {
         year: 2020,
         task: ['Detection'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RA CVPRW',
+        conference_journal: 'CVPR Workshop',
         paper_link: 'https://ieeexplore.ieee.org/document/9150751',
         source_code: '-'
       },
@@ -162,7 +162,7 @@ class Fusion extends React.PureComponent {
         year: 2020,
         task: ['Detection'],
         dataset: ['CRUW'],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RA WACV',
+        conference_journal: 'WACV',
         paper_link: 'https://openaccess.thecvf.com/content/WACV2021/papers/Wang_RODNet_Radar_Object_Detection_Using_Cross-Modal_Supervision_WACV_2021_paper.pdf',
         source_code: '-'
       },
@@ -174,7 +174,7 @@ class Fusion extends React.PureComponent {
         year: 2020,
         task: ['Detection'],
         dataset: ['CRUW'],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RA JSTSP',
+        conference_journal: 'JSTSP',
         paper_link: 'https://ieeexplore.ieee.org/document/9353210',
         source_code: '-'
       },
@@ -186,7 +186,7 @@ class Fusion extends React.PureComponent {
         year: 2020,
         task: ['Detection'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RD IJCNN',
+        conference_journal: 'IJCNN',
         paper_link: 'https://ieeexplore.ieee.org/document/9207080',
         source_code: '-'
       },
@@ -198,7 +198,7 @@ class Fusion extends React.PureComponent {
         year: 2020,
         task: ['Detection'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RAD IEEE Sensors',
+        conference_journal: 'IEEE Sensors',
         paper_link: 'https://ieeexplore.ieee.org/abstract/document/9249018',
         source_code: '-'
       },
@@ -211,7 +211,7 @@ class Fusion extends React.PureComponent {
         year: 2020,
         task: ['Detection'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RAD RAL',
+        conference_journal: 'RAL',
         paper_link: 'https://ieeexplore.ieee.org/abstract/document/8962258',
         source_code: '-'
       },
@@ -225,7 +225,7 @@ class Fusion extends React.PureComponent {
         year: 2021,
         task: ['Detection'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RAD ICCV Workshop',
+        conference_journal: 'ICCV Workshop',
         paper_link: 'https://openaccess.thecvf.com/content/ICCV2021W/AVVision/html/Meyer_Graph_Convolutional_Networks_for_3D_Object_Detection_on_Radar_Data_ICCVW_2021_paper.html?ref=https://githubhelp.com',
         source_code: '-'
       },
@@ -238,7 +238,7 @@ class Fusion extends React.PureComponent {
         year: 2021,
         task: ['Detection'],
         dataset: ['RADDet'],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RAD CRV',
+        conference_journal: 'CRV',
         paper_link: 'https://openaccess.thecvf.com/content/ICCV2021W/AVVision/html/Meyer_Graph_Convolutional_Networks_for_3D_Object_Detection_on_Radar_Data_ICCVW_2021_paper.html?ref=https://githubhelp.com',
         source_code: 'https://github.com/ZhangAoCanada/RADDet'
       },
@@ -252,7 +252,7 @@ class Fusion extends React.PureComponent {
         year: 2022,
         task: ['Detection'],
         dataset: ['CARRADA RADDet'],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RD IV',
+        conference_journal: 'IV',
         paper_link: 'https://ieeexplore.ieee.org/document/9827281',
         source_code: '-'
       },
@@ -266,7 +266,7 @@ class Fusion extends React.PureComponent {
         year: 2022,
         task: ['Detection'],
         dataset: ['K-Radar'],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RADE NeurIPS',
+        conference_journal: 'NeurIPS',
         paper_link: 'https://proceedings.neurips.cc/paper_files/paper/2022/hash/185fdf627eaae2abab36205dcd19b817-Abstract-Datasets_and_Benchmarks.html',
         source_code: 'https://github.com/kaist-avelab/k-radar'
       },
@@ -279,7 +279,7 @@ class Fusion extends React.PureComponent {
         year: 2023,
         task: ['Detection'],
         dataset: ['K-Radar'],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RADE arXiv',
+        conference_journal: 'arXiv',
         paper_link: 'https://arxiv.org/abs/2303.06342',
         source_code: '-'
       },
@@ -292,7 +292,7 @@ class Fusion extends React.PureComponent {
         year: 2020,
         task: ['Segmentation'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RAD IV',
+        conference_journal: 'IV',
         paper_link: 'https://ieeexplore.ieee.org/abstract/document/9304674',
         source_code: '-'
       },
@@ -305,7 +305,7 @@ class Fusion extends React.PureComponent {
         year: 2020,
         task: ['Segmentation'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RAD ICMIM',
+        conference_journal: 'ICMIM',
         paper_link: 'https://ieeexplore.ieee.org/abstract/document/9299052',
         source_code: '-'
       },
@@ -319,7 +319,7 @@ class Fusion extends React.PureComponent {
         year: 2021,
         task: ['Segmentation'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RAD VEHITS',
+        conference_journal: 'VEHITS',
         paper_link: 'https://arxiv.org/abs/2103.03387',
         source_code: '-'
       },
@@ -332,7 +332,7 @@ class Fusion extends React.PureComponent {
         year: 2021,
         task: ['Segmentation'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RAD ICCV',
+        conference_journal: 'ICCV',
         paper_link: 'https://openaccess.thecvf.com/content/ICCV2021/html/Ouaknine_Multi-View_Radar_Semantic_Segmentation_ICCV_2021_paper.html',
         source_code: 'https://github.com/valeoai/MVRSS'
       },
@@ -358,7 +358,7 @@ class Fusion extends React.PureComponent {
         year: 2023,
         task: ['Multi-Task'],
         dataset: ['RADIal'],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RD TIV',
+        conference_journal: 'TIV',
         paper_link: 'https://ieeexplore.ieee.org/abstract/document/10008067',
         source_code: '-'
       },

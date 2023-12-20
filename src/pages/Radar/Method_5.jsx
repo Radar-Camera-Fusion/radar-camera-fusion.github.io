@@ -63,7 +63,7 @@ class Fusion extends React.PureComponent {
                 case 'Object Classification': color = '#eb2f96'; break;
                 // case '': color = '#eb2f96'; break;
                 // case '': color = '#722ed1'; break;
-                default: color = 'blue-inverse';
+                default: color = '#722ed1';
               }
               tags.push(<Tag color={color} key={tag}>
                 {tag}

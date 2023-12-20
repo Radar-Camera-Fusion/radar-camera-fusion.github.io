@@ -115,11 +115,11 @@ class Dataset extends React.PureComponent {
           <h1  name="title" class="title-h1">Citation</h1>
           <div style={{backgroundColor: '#f3f6fa', padding: '10px'}}>
           <code>
-          {"@misc{yao2023radarcamera,"}<br></br> 
-          &nbsp;&nbsp;&nbsp;&nbsp;{"title={Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review}, " }<br></br> 
-          &nbsp;&nbsp;&nbsp;&nbsp;{"author={Shanliang Yao and Runwei Guan and Xiaoyu Huang and Zhuoxiao Li and Xiangyu Sha and Yong Yue and Eng Gee Lim and Hyungjoon Seo and Ka Lok Man and Xiaohui Zhu and Yutao Yue}," }<br></br> 
+          {"@misc{yao2023radarperception,"}<br></br> 
+          &nbsp;&nbsp;&nbsp;&nbsp;{"title={Radar Perception in Autonomous Driving: Exploring Different Data Representations}, " }<br></br> 
+          &nbsp;&nbsp;&nbsp;&nbsp;{"author={Shanliang Yao and Runwei Guan and Zitian Peng and Chenhang Xu and Yilu Shi and Yong Yue and Eng Gee Lim and Hyungjoon Seo and Ka Lok Man and Xiaohui Zhu and Yutao Yue}," }<br></br> 
           &nbsp;&nbsp;&nbsp;&nbsp;{"year={2023},"}<br></br> 
-          &nbsp;&nbsp;&nbsp;&nbsp;{"eprint={2304.10410},"}<br></br> 
+          &nbsp;&nbsp;&nbsp;&nbsp;{"eprint={2312.04861},"}<br></br> 
           &nbsp;&nbsp;&nbsp;&nbsp;{"archivePrefix={arXiv},"}<br></br> 
           &nbsp;&nbsp;&nbsp;&nbsp;{"primaryClass={cs.CV}"}<br></br> 
           {"}"}

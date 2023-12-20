@@ -328,6 +328,7 @@ class Fusion extends React.PureComponent {
 
     return (
       <div {...props} {...dataSource.wrapper} id="methods">
+        <Divider orientation="center"><h1 name="title" className="title-h1">Radar Perception Methods</h1></Divider>
         <div className="title-wrapper">
           <h2 name="title" className="title-h1">ADC Signal Methods</h2>
 

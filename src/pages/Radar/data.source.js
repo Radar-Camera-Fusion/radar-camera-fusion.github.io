@@ -15,8 +15,8 @@ export const Nav00DataSource = {
     children: [
       {
         name: 'linkNav',
-        to: 'characteristics',
-        children: 'Characteristics',
+        to: 'applications',
+        children: 'Applications',
         className: 'menu-item',
       },
       {

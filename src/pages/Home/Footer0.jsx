@@ -7,7 +7,7 @@ class Footer extends React.PureComponent {
     var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?58d144a733fcb2ea441a68157d15c700";
+  hm.src = "https://hm.baidu.com/hm.js?9d70d8255d741536ee364f7f810e35cf";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
