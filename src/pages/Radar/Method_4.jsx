@@ -238,7 +238,7 @@ class Fusion extends React.PureComponent {
         year: 2023,
         task: ['Detection'],
         dataset: [],// 没用数据集则留空，有的话按数组格式
-        conference_journal: 'RA ICRA',
+        conference_journal: 'ICRA',
         paper_link: 'https://arxiv.org/abs/2209.14499',
         source_code: '-'
       },

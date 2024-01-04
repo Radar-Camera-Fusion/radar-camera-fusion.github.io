@@ -107,7 +107,7 @@ export const Banner30DataSource = {
       {
         name: 'nameEn',
         className: 'banner3-name-en',
-        children: 'Yong Yue, Eng Gee Lim, Hyungjoon Seo, Ka Lok Man, Xiaohui Zhu, Yutao Yue',
+        children: 'Weiping Ding, Eng Gee Lim, Yong Yue, Hyungjoon Seo, Ka Lok Man, Jieming Ma, Xiaohui Zhu, Yutao Yue',
       },
       
       // {
@@ -119,7 +119,7 @@ export const Banner30DataSource = {
       {
         name: 'time',
         className: 'banner3-time',
-        children: 'University of Liverpool, Xi‘an Jiaotong-Liverpool University, Institute of Deep Perception Technology, JITRI',
+        children: 'University of Liverpool, Xi‘an Jiaotong-Liverpool University, Nantong University, Institute of Deep Perception Technology, JITRI',
       },
       {
         name: 'button',
