@@ -682,6 +682,39 @@ class Dataset extends React.PureComponent {
         paper_link: 'https://ieeexplore.ieee.org/abstract/document/9894724',
       },
 
+      {
+        key: '30',
+        name: ['MiliPoint', 'ttps://github.com/yizzfz/MiliPoint', '30'],
+        year: 2024,
+        task: ['Activity Recognition'],
+        sensors: 'Radar (TI AWR1843), Stereo Camera',
+        radar_data_representation: ['Point Cloud'],
+        category_number:0,
+        categories: '-',
+        scenarios: 'Activities (identification, action classification, keypoint estimation)',
+        record_area: '-',
+        record_time: '-',
+        affiliation: '',
+        paper_link: 'https://proceedings.neurips.cc/paper_files/paper/2023/hash/c60468eca9cd0b0083f0ff9d0aeb171a-Abstract-Datasets_and_Benchmarks.html',
+      },
+
+      {
+        key: '31',
+        name: ['OORD', 'https://github.com/mttgdd/oord-dataset', '31'],
+        year: 2024,
+        task: ['Classification'],
+        sensors: 'Radar (Navtech CTS350-X), GPS/INS',
+        radar_data_representation: ['Radar Tensor'],
+        category_number:0,
+        categories: '-',
+        scenarios: 'off-road, difficult terrain, naturalistic environments',
+        record_area: '-',
+        record_time: '-',
+        affiliation: '',
+        paper_link: 'https://arxiv.org/abs/2403.02845',
+      },
+      
+
 
 
     ];

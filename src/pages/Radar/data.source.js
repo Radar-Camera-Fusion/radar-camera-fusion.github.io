@@ -96,7 +96,7 @@ export const Banner30DataSource = {
         name: 'slogan',
         className: 'banner3-slogan',
         children:
-          'Radar Perception in Autonomous Driving: Exploring Different Data Representations',
+          'Exploring Radar Data Representations in Autonomous Driving: A Comprehensive Review',
         // texty: true,
       },
       {
@@ -119,7 +119,7 @@ export const Banner30DataSource = {
       {
         name: 'time',
         className: 'banner3-time',
-        children: 'University of Liverpool, Xi‘an Jiaotong-Liverpool University, Nantong University, Institute of Deep Perception Technology, JITRI',
+        children: 'University of Liverpool, Xi‘an Jiaotong-Liverpool University, Nantong University, Hong Kong University of Science and Technology (Guangzhou), Institute of Deep Perception Technology, JITRI',
       },
       {
         name: 'button',

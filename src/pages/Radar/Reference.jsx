@@ -33,8 +33,9 @@ class Dataset extends React.PureComponent {
       'A. Palffy, E. Pool, S. Baratam, J. Kooij, and D. Gavrila, “Multi-class Road User Detection with 3+1D Radar in the View-of-Delft Dataset,” IEEE Robotics and Automation Letters, vol. PP, no. 99, pp. 1–1, 2022.',
       'D.-H. Paek, S.-H. Kong, and K. T. Wijaya, “K-Radar: 4D Radar Object Detection Dataset and Benchmark for Autonomous Driving in Various Weather Conditions,” arXiv, 2022.',
       'T.Matuszka,I.Barton,A ́.Butykai,P.Hajas,D.Kiss,D.Kova ́cs, S. Kunsa ́gi-Ma ́te ́, P. Lengyel, G. Ne ́meth, L. Peto ̋ et al., “aimotive dataset: A multimodal dataset for robust autonomous driving with long-range perception,” arXiv preprint arXiv:2211.09445, 2022.',
-      'Yao S, Guan R, Wu Z, et al. Waterscenes: A multi-task 4d radar-camera fusion dataset and benchmark for autonomous driving on water surfaces[J]. arXiv preprint arXiv:2307.06505, 2023.'
-
+      'Yao S, Guan R, Wu Z, et al. Waterscenes: A multi-task 4d radar-camera fusion dataset and benchmark for autonomous driving on water surfaces[J]. arXiv preprint arXiv:2307.06505, 2023.',
+      'Gadd, M., De Martini, D., Bartlett, O., Murcutt, P., Towlson, M., Widojo, M., ... & Kunze, L. (2024). OORD: The Oxford Offroad Radar Dataset. arXiv preprint arXiv:2403.02845.',
+      'Cui, H., Zhong, S., Wu, J., Shen, Z., Dahnoun, N., & Zhao, Y. (2024). MiliPoint: A Point Cloud Dataset for mmWave Radar. Advances in Neural Information Processing Systems, 36.'
     ];
 
     const data_fusion = [
@@ -116,8 +117,8 @@ class Dataset extends React.PureComponent {
           <div style={{backgroundColor: '#f3f6fa', padding: '10px'}}>
           <code>
           {"@misc{yao2023radarperception,"}<br></br> 
-          &nbsp;&nbsp;&nbsp;&nbsp;{"title={Radar Perception in Autonomous Driving: Exploring Different Data Representations}, " }<br></br> 
-          &nbsp;&nbsp;&nbsp;&nbsp;{"author={Shanliang Yao and Runwei Guan and Zitian Peng and Chenhang Xu and Yilu Shi and Yong Yue and Eng Gee Lim and Hyungjoon Seo and Ka Lok Man and Xiaohui Zhu and Yutao Yue}," }<br></br> 
+          &nbsp;&nbsp;&nbsp;&nbsp;{"title={Exploring Radar Data Representations in Autonomous Driving: A Comprehensive Review}, " }<br></br> 
+          &nbsp;&nbsp;&nbsp;&nbsp;{"author={Shanliang Yao and Runwei Guan and Zitian Peng and Chenhang Xu and Yilu Shi and Weiping Ding and Eng Gee Lim and Yong Yue and Hyungjoon Seo and Ka Lok Man and Jieming Ma and Xiaohui Zhu and Yutao Yue}," }<br></br> 
           &nbsp;&nbsp;&nbsp;&nbsp;{"year={2023},"}<br></br> 
           &nbsp;&nbsp;&nbsp;&nbsp;{"eprint={2312.04861},"}<br></br> 
           &nbsp;&nbsp;&nbsp;&nbsp;{"archivePrefix={arXiv},"}<br></br> 
