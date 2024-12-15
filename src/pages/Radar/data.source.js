@@ -119,7 +119,7 @@ export const Banner30DataSource = {
       {
         name: 'time',
         className: 'banner3-time',
-        children: 'University of Liverpool, Xi‘an Jiaotong-Liverpool University, Nantong University, Hong Kong University of Science and Technology (Guangzhou)',
+        children: 'Yancheng Institute of Technology, University of Liverpool, Xi‘an Jiaotong-Liverpool University, Nantong University, Hong Kong University of Science and Technology (Guangzhou)',
       },
       {
         name: 'button',

@@ -588,7 +588,7 @@ class Dataset extends React.PureComponent {
 
       {
         key: '24',
-        name: ['NTU4DRadLM', 'https://github.com/ junzhang2016/NTU4DRadLM', '24'],
+        name: ['NTU4DRadLM', 'https://github.com/junzhang2016/NTU4DRadLM', '24'],
         year: 2023,
         task: ['SLAM'],
         sensors: 'a 3D LiDAR, a visual camera, a 4D Radar, a thermal camera, an IMU and a RTK GPS',
@@ -604,7 +604,7 @@ class Dataset extends React.PureComponent {
 
       {
         key: '25',
-        name: ['Dual-Radar', 'ttps://github.com/adept- thu/Dual-Radar', '25'],
+        name: ['Dual-Radar', 'https://github.com/adeptthu/Dual-Radar', '25'],
         year: 2023,
         task: ['Object Detection', 'Object Tracking'],
         sensors: 'Radar (ARS548 RDI, Arbe Phoenix), Camera, LiDAR',
@@ -684,7 +684,7 @@ class Dataset extends React.PureComponent {
 
       {
         key: '30',
-        name: ['MiliPoint', 'ttps://github.com/yizzfz/MiliPoint', '30'],
+        name: ['MiliPoint', 'https://github.com/yizzfz/MiliPoint', '30'],
         year: 2024,
         task: ['Activity Recognition'],
         sensors: 'Radar (TI AWR1843), Stereo Camera',
@@ -697,7 +697,6 @@ class Dataset extends React.PureComponent {
         affiliation: '',
         paper_link: 'https://proceedings.neurips.cc/paper_files/paper/2023/hash/c60468eca9cd0b0083f0ff9d0aeb171a-Abstract-Datasets_and_Benchmarks.html',
       },
-
       {
         key: '31',
         name: ['OORD', 'https://github.com/mttgdd/oord-dataset', '31'],
@@ -714,6 +713,21 @@ class Dataset extends React.PureComponent {
         paper_link: 'https://arxiv.org/abs/2403.02845',
       },
       
+      {
+        key: '32',
+        name: ['V2X-Radar', 'http://openmpd.com/column/V2X-Radar', '32'],
+        year: 2024,
+        task: ['Object Detection'],
+        sensors: 'Radar (Oculii Eagle, Arbe Phoenix), Camera, LiDAR',
+        radar_data_representation: ['Point Cloud'],
+        category_number:0,
+        categories: '-',
+        scenarios: 'Roads (various weather, time and intersection scenarios)',
+        record_area: '-',
+        record_time: '-',
+        affiliation: '',
+        paper_link: 'https://arxiv.org/abs/2411.10962',
+      },
 
 
 
